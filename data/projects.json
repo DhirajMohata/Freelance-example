@@ -1,0 +1,21 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "name": "Project Alpha",
+        "team": "Team A",
+        "teamId": "team-a",
+        "description": "A cutting-edge web application",
+        "techStack": ["React", "Node.js"]
+      },
+      {
+        "id": "2",
+        "name": "Project Beta",
+        "team": "Team B",
+        "teamId": "team-b",
+        "description": "Mobile-first platform",
+        "techStack": ["Vue", "Express"]
+      }
+    ]
+  }
+  
