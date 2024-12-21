@@ -7,7 +7,6 @@ import { useEffect, useState } from "react"
 import { logout } from '@/store/slices/authSlice';
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/navigation'
-import { ThemeToggle } from "@/components/themes/themeToggle"
 
 export default function DashboardLayout({
   children,
@@ -52,7 +51,6 @@ export default function DashboardLayout({
                 {children}
                 </main>
             </div>
-            <ThemeToggle />
         </SidebarProvider>
     )
 }
